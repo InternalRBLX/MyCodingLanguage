@@ -1,3 +1,5 @@
 # MyCodingLanguage | __
 
-## Converting py into a new Lanaguage.
+### | Converting Python/C++ into a new Lanaguage.
+
+### | Open-Source Language by SpencerDevv

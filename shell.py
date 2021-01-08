@@ -2,9 +2,7 @@ import basic
 
 while True:
     text = input('basic > ')
-    result, err = basic.run(text)
+    result, error = basic.run('<stdin>', text)
 
-    if err: 
-        print(err.as_string())
-    else:
-        print(result)
+    if error: print(error.as_string())
+    else: print(result)
