@@ -1,8 +1,8 @@
-import basic
+import logic
 
 while True:
-    text = input('basic > ')
-    result, error = basic.run('<stdin>', text)
+		text = input('logic > ')
+		result, error = logic.run('<stdin>', text)
 
-    if error: print(error.as_string())
-    else: print(result)
+		if error: print(error.as_string())
+		else: print(result)
